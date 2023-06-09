@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color:beige ;
+}
+
+p{
+    color: rgb(61, 11, 241);
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(224, 32, 11);
+    font-size: 40px;
+}
+
+.div1{
+    background-color: rgba(121, 158, 26, 0.699);
+    width: 20%;
+    height: 25%;
+    text-align: center;
+    position: relative;
+    margin: 10%;
+}
+
+.div2{
+    background-color: rgba(86, 16, 16, 0.507);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    
+}
+
