@@ -1,0 +1,10 @@
+html, body {
+    margin: 0%;
+}
+.main-header{
+    background-color: #0000004b;
+    background-image: url(images/background_image.jfif);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
