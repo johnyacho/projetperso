@@ -1,5 +1,41 @@
+/* Path: Projet_CSS\style.css */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    line-height: 1.7; 
+    /* font-weight: 300;
+    /* font-size: 16px; */
+    
+    
+}
+
 html, body {
     margin: 0%;
+    padding: 0%;
+    background-color: #ffffffcc;
+}
+/* supprime l'espace entre les éléments */
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline;
+    /* text-align: center; */
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    color: #ffffff;
+}
+.nav{
+    text-align: center;
+}
+.main-nav a:hover {
+    background-color: #f0ececda;
 }
 .main-header{
     background-color: #0000004b;
@@ -7,4 +43,8 @@ html, body {
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
+    padding-bottom: 7%;
+}
+#generic{
+    color: white;
 }
