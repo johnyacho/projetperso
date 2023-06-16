@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: Raleway, sans-serif;
     line-height: 1.7; 
-    /* font-weight: 300;
+    /* font-weight: 400; */
     /* font-size: 16px; */
     
     
@@ -14,29 +14,37 @@
 html, body {
     margin: 0%;
     padding: 0%;
-    background-color: #ffffffcc;
+    background-color: #fffffecc;
 }
 /* supprime l'espace entre les éléments */
 .nav ul {
     margin: 0;
     padding: 0;
 }
+/* affiche les éléments de la barre de navigation en ligne */
 .nav li {
     display: inline;
     /* text-align: center; */
 }
+/* ajoute un espace entre les éléments de la barre de navigation */
 .nav a {
     display: inline-block;
     text-decoration: none;
     padding: 1em;
     color: #ffffff;
 }
-.nav{
+/* centrer les elements de la barre de navigation, augmenter la police et ajouter une ligne solide */
+.main-nav{
     text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #9b97977a;
 }
-.main-nav a:hover {
+/* changer de couleur au survol de la souris sur les elements de la barre de navigation */
+.nav a:hover {
     background-color: #f0ececda;
 }
+/* Ajouter background-color pour attenuer la couleur de l'image de fond en faisant la fusion avec blend-mode */
 .main-header{
     background-color: #0000004b;
     background-image: url(images/background_image.jfif);
