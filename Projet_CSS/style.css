@@ -1,5 +1,10 @@
 /* Path: Projet_CSS\style.css */
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+  @font-face {
+    font-family: "Booter-zero zero";
+    src: url(font/Booter-zero\ zero.woff) format("woff"),
+         url(font/Booter-zero\ zero.woff2) format("woff2");
+  }
 
 *{
     box-sizing: border-box;
@@ -24,6 +29,7 @@ html, body {
 /* affiche les éléments de la barre de navigation en ligne */
 .nav li {
     display: inline;
+    padding: 0% 5%;
     /* text-align: center; */
 }
 /* ajoute un espace entre les éléments de la barre de navigation */
@@ -51,8 +57,18 @@ html, body {
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
 }
 #generic{
     color: white;
+}
+.band{
+    text-align: center;
+    margin: 0%;
+    font-family: "Booter-zero zero";
+    font-size: 4em;
+    font-weight: normal;
+}
+.band-large{
+    font-size: 8em;
 }
